@@ -20,10 +20,27 @@ namespace GreenHellVRLoader
         }
 
 
-        private void InstallBepinex()
-        {
 
+
+
+
+
+
+        public void InstallBepinex()
+        {
+            ChangeStatus("Installing Bepinex");
+            ResetStatus();// this will reset the status bar after the code is done
         }
+
+        public void ChangeStatus(string NewStatus)
+        {
+            guna2TextBox1.Text = "Status:" + NewStatus;
+        }
+        private void ResetStatus()
+        {
+            guna2TextBox1.Text = "Status:";
+        }
+
 
 
         private void guna2Button1_Click(object sender, EventArgs e)//InstallBepinex
@@ -53,5 +70,23 @@ namespace GreenHellVRLoader
         {
 
         }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

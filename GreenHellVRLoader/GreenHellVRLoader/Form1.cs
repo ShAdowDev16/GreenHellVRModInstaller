@@ -39,5 +39,10 @@ namespace GreenHellVRLoader
         {
 
         }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            Process.Start("cmd", "/c start https://www.youtube.com/channel/UCwFuV5PhIs38fPujJ37pJOA");//paste link here for a modding guide when out
+        }
     }
 }

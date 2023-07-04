@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -43,6 +43,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -76,6 +78,7 @@
             guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(components);
             guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             BackButton = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -83,7 +86,7 @@
             guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            InstallBepinexButton = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
@@ -110,6 +113,7 @@
             // guna2Panel1
             // 
             guna2Panel1.BackColor = SystemColors.ControlDark;
+            guna2Panel1.Controls.Add(guna2TextBox1);
             guna2Panel1.Controls.Add(BackButton);
             guna2Panel1.Controls.Add(guna2Panel2);
             guna2Panel1.Controls.Add(guna2ControlBox4);
@@ -117,16 +121,38 @@
             guna2Panel1.Controls.Add(guna2ControlBox2);
             guna2Panel1.Controls.Add(guna2ControlBox1);
             guna2Panel1.Controls.Add(guna2HtmlLabel1);
-            guna2Panel1.CustomizableEdges = customizableEdges43;
+            guna2Panel1.CustomizableEdges = customizableEdges45;
             guna2Panel1.Location = new Point(-7, 1);
             guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges44;
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges46;
             guna2Panel1.Size = new Size(790, 73);
             guna2Panel1.TabIndex = 2;
             // 
+            // guna2TextBox1
+            // 
+            guna2TextBox1.CustomizableEdges = customizableEdges31;
+            guna2TextBox1.DefaultText = "Status:";
+            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox1.Font = new Font("Segoe UI", 7.20000029F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            guna2TextBox1.Location = new Point(431, 28);
+            guna2TextBox1.Name = "guna2TextBox1";
+            guna2TextBox1.PasswordChar = '\0';
+            guna2TextBox1.PlaceholderText = "";
+            guna2TextBox1.ReadOnly = true;
+            guna2TextBox1.SelectedText = "";
+            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            guna2TextBox1.Size = new Size(177, 22);
+            guna2TextBox1.TabIndex = 11;
+            guna2TextBox1.TextChanged += guna2TextBox1_TextChanged;
+            // 
             // BackButton
             // 
-            BackButton.CustomizableEdges = customizableEdges31;
+            BackButton.CustomizableEdges = customizableEdges33;
             BackButton.DisabledState.BorderColor = Color.DarkGray;
             BackButton.DisabledState.CustomBorderColor = Color.DarkGray;
             BackButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -135,7 +161,7 @@
             BackButton.ForeColor = Color.White;
             BackButton.Location = new Point(344, 11);
             BackButton.Name = "BackButton";
-            BackButton.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            BackButton.ShadowDecoration.CustomizableEdges = customizableEdges34;
             BackButton.Size = new Size(81, 39);
             BackButton.TabIndex = 10;
             BackButton.Text = "Back";
@@ -143,22 +169,22 @@
             // 
             // guna2Panel2
             // 
-            guna2Panel2.CustomizableEdges = customizableEdges33;
+            guna2Panel2.CustomizableEdges = customizableEdges35;
             guna2Panel2.Location = new Point(172, 70);
             guna2Panel2.Name = "guna2Panel2";
-            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges36;
             guna2Panel2.Size = new Size(0, 0);
             guna2Panel2.TabIndex = 9;
             // 
             // guna2ControlBox4
             // 
             guna2ControlBox4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            guna2ControlBox4.CustomizableEdges = customizableEdges35;
+            guna2ControlBox4.CustomizableEdges = customizableEdges37;
             guna2ControlBox4.FillColor = Color.FromArgb(139, 152, 166);
             guna2ControlBox4.IconColor = Color.White;
             guna2ControlBox4.Location = new Point(721, 14);
             guna2ControlBox4.Name = "guna2ControlBox4";
-            guna2ControlBox4.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            guna2ControlBox4.ShadowDecoration.CustomizableEdges = customizableEdges38;
             guna2ControlBox4.Size = new Size(56, 36);
             guna2ControlBox4.TabIndex = 7;
             // 
@@ -166,12 +192,12 @@
             // 
             guna2ControlBox3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            guna2ControlBox3.CustomizableEdges = customizableEdges37;
+            guna2ControlBox3.CustomizableEdges = customizableEdges39;
             guna2ControlBox3.FillColor = Color.FromArgb(139, 152, 166);
             guna2ControlBox3.IconColor = Color.White;
             guna2ControlBox3.Location = new Point(634, 14);
             guna2ControlBox3.Name = "guna2ControlBox3";
-            guna2ControlBox3.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            guna2ControlBox3.ShadowDecoration.CustomizableEdges = customizableEdges40;
             guna2ControlBox3.Size = new Size(56, 36);
             guna2ControlBox3.TabIndex = 6;
             // 
@@ -179,24 +205,24 @@
             // 
             guna2ControlBox2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            guna2ControlBox2.CustomizableEdges = customizableEdges39;
+            guna2ControlBox2.CustomizableEdges = customizableEdges41;
             guna2ControlBox2.FillColor = Color.FromArgb(139, 152, 166);
             guna2ControlBox2.IconColor = Color.White;
             guna2ControlBox2.Location = new Point(1250, 3);
             guna2ControlBox2.Name = "guna2ControlBox2";
-            guna2ControlBox2.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            guna2ControlBox2.ShadowDecoration.CustomizableEdges = customizableEdges42;
             guna2ControlBox2.Size = new Size(56, 36);
             guna2ControlBox2.TabIndex = 2;
             // 
             // guna2ControlBox1
             // 
             guna2ControlBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            guna2ControlBox1.CustomizableEdges = customizableEdges41;
+            guna2ControlBox1.CustomizableEdges = customizableEdges43;
             guna2ControlBox1.FillColor = Color.FromArgb(139, 152, 166);
             guna2ControlBox1.IconColor = Color.White;
             guna2ControlBox1.Location = new Point(1321, 3);
             guna2ControlBox1.Name = "guna2ControlBox1";
-            guna2ControlBox1.ShadowDecoration.CustomizableEdges = customizableEdges42;
+            guna2ControlBox1.ShadowDecoration.CustomizableEdges = customizableEdges44;
             guna2ControlBox1.Size = new Size(56, 36);
             guna2ControlBox1.TabIndex = 1;
             // 
@@ -211,23 +237,23 @@
             guna2HtmlLabel1.Text = "GreenHellVR Modder";
             guna2HtmlLabel1.Click += guna2HtmlLabel1_Click;
             // 
-            // InstallBepinexButton
+            // guna2Button1
             // 
-            InstallBepinexButton.BorderRadius = 10;
-            InstallBepinexButton.CustomizableEdges = customizableEdges29;
-            InstallBepinexButton.DisabledState.BorderColor = Color.DarkGray;
-            InstallBepinexButton.DisabledState.CustomBorderColor = Color.DarkGray;
-            InstallBepinexButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            InstallBepinexButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            InstallBepinexButton.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            InstallBepinexButton.ForeColor = Color.White;
-            InstallBepinexButton.Location = new Point(24, 80);
-            InstallBepinexButton.Name = "InstallBepinexButton";
-            InstallBepinexButton.ShadowDecoration.CustomizableEdges = customizableEdges30;
-            InstallBepinexButton.Size = new Size(225, 56);
-            InstallBepinexButton.TabIndex = 10;
-            InstallBepinexButton.Text = "Install Bepinex (required)";
-            InstallBepinexButton.Click += guna2Button1_Click;
+            guna2Button1.BorderRadius = 10;
+            guna2Button1.CustomizableEdges = customizableEdges29;
+            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2Button1.ForeColor = Color.White;
+            guna2Button1.Location = new Point(24, 80);
+            guna2Button1.Name = "guna2Button1";
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            guna2Button1.Size = new Size(225, 56);
+            guna2Button1.TabIndex = 10;
+            guna2Button1.Text = "Install Bepinex (required)";
+            guna2Button1.Click += guna2Button1_Click;
             // 
             // guna2Button2
             // 
@@ -488,7 +514,7 @@
             Controls.Add(guna2Button4);
             Controls.Add(guna2Button3);
             Controls.Add(guna2Button2);
-            Controls.Add(InstallBepinexButton);
+            Controls.Add(guna2Button1);
             Controls.Add(guna2Panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Form2";
@@ -510,7 +536,7 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2Button InstallBepinexButton;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Button guna2Button15;
         private Guna.UI2.WinForms.Guna2Button guna2Button14;
         private Guna.UI2.WinForms.Guna2Button guna2Button13;
@@ -526,5 +552,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button BackButton;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
     }
 }
