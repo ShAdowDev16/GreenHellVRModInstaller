@@ -37,9 +37,36 @@ namespace GreenHellVRModManager
             }
         }
 
+
+        public void InstallCustomDayNight()
+        {
+            string downloadLink = "https://github.com/ShAdowDev16/BepinexGHVR/raw/main/CustomDayNight.dll\r\n"; // Replace with the URL of the .dll file you want to download
+            string destinationPath = Path.Combine(Path.GetDirectoryName(gameExecutablePath), "BepInEx\\plugins\\CustomDayNight.dll"); // Replace with the desired destination path to save the downloaded .dll file
+
+            try
+            {
+                using (WebClient client = new WebClient())
+                {
+                    ChangeStatus("Downloading file...");
+
+                    client.DownloadFile(downloadLink, destinationPath);
+
+                    ChangeStatus("File downloaded successfully!");
+                }
+            }
+            catch (Exception ex)
+            {
+                ChangeStatus("Error downloading file: " + ex.Message);
+                MessageBox.Show("Error occurred while downloading the file. Please check your internet connection or the file might already exist", "Green Hell Mod Manager", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+
+
         public void InstallBepinex()
         {
-            string downloadLink = "https://github.com/ShAdowDev16/BepinexGHVR/raw/main/BepinexGHVR.zip"; // Replace with the actual download link
+            string downloadLink = "https://github.com/BepInEx/BepInEx/releases/download/v5.4.21/BepInEx_x64_5.4.21.0.zip";//download link for Bepinex
 
             string destinationFolder = Path.GetDirectoryName(gameExecutablePath);
             string tempZipFile = Path.Combine(Path.GetTempPath(), "bepinex.zip");
@@ -57,11 +84,13 @@ namespace GreenHellVRModManager
                     ZipFile.ExtractToDirectory(tempZipFile, destinationFolder);
 
                     ChangeStatus("BepInEx installed successfully!");
+                    MessageBox.Show("For Bepinex to configure itself correctly, start your GHVR for 20 seconds ", "Green Hell Mod Manager", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)
             {
                 ChangeStatus("Error installing BepInEx: " + ex.Message);
+                MessageBox.Show("Error while installing join the the discord for help maybe it is because you already have (a) file(s) installed from bepinex", "Green Hell Mod Manager", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             finally
             {
@@ -74,7 +103,7 @@ namespace GreenHellVRModManager
         }
 
 
-
+        //C:\Program Files\Oculus\Software\Software\incuvo-s-a-green-hell-vr\BepInEx\plugins
 
         public void ChangeStatus(string NewStatus)
         {
@@ -83,10 +112,12 @@ namespace GreenHellVRModManager
 
 
 
+        // string folderPath = Path.Combine(Path.GetDirectoryName(gameExecutablePath), "BepInEx\\plugins");
+
 
         public void FindMods()
         {
-            string folderPath = @"C:\Program Files\Oculus\Software\Software\incuvo-s-a-green-hell-vr\BepInEx\plugins";
+            string folderPath = Path.Combine(Path.GetDirectoryName(gameExecutablePath), "BepInEx\\plugins"); ;
 
             // Get all the files in the specified folder
             string[] files = Directory.GetFiles(folderPath);
@@ -151,6 +182,11 @@ namespace GreenHellVRModManager
         private void InstallBepinexButton_Click(object sender, EventArgs e)
         {
             InstallBepinex();
+        }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+            InstallCustomDayNight();
         }
     }
 }
