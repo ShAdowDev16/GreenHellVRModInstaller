@@ -41,18 +41,26 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             SteamButton = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             StatusBar = new Guna.UI2.WinForms.Guna2TextBox();
@@ -61,14 +69,26 @@
             DiscordButton = new Guna.UI2.WinForms.Guna2Button();
             OculusButton = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            ModPages = new TabControl();
+            tabPage1 = new TabPage();
+            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             InstallBepinexButton = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            tabPage2 = new TabPage();
+            guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             FindModsButton = new Guna.UI2.WinForms.Guna2Button();
             PluginsList = new ListBox();
             guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            tabPage3 = new TabPage();
+            tabPage4 = new TabPage();
             guna2Panel1.SuspendLayout();
             guna2Panel2.SuspendLayout();
+            ModPages.SuspendLayout();
+            tabPage1.SuspendLayout();
+            tabPage2.SuspendLayout();
             guna2Panel3.SuspendLayout();
             SuspendLayout();
             // 
@@ -198,14 +218,59 @@
             // guna2Panel2
             // 
             guna2Panel2.BackColor = SystemColors.ControlLight;
-            guna2Panel2.Controls.Add(guna2Button1);
-            guna2Panel2.Controls.Add(InstallBepinexButton);
-            guna2Panel2.CustomizableEdges = customizableEdges18;
+            guna2Panel2.Controls.Add(ModPages);
+            guna2Panel2.CustomizableEdges = customizableEdges26;
             guna2Panel2.Location = new Point(20, 77);
             guna2Panel2.Name = "guna2Panel2";
-            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges19;
+            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges27;
             guna2Panel2.Size = new Size(356, 335);
             guna2Panel2.TabIndex = 2;
+            guna2Panel2.Paint += guna2Panel2_Paint;
+            // 
+            // ModPages
+            // 
+            ModPages.Controls.Add(tabPage1);
+            ModPages.Controls.Add(tabPage2);
+            ModPages.Controls.Add(tabPage3);
+            ModPages.Controls.Add(tabPage4);
+            ModPages.Location = new Point(29, 3);
+            ModPages.Name = "ModPages";
+            ModPages.SelectedIndex = 0;
+            ModPages.Size = new Size(300, 315);
+            ModPages.TabIndex = 4;
+            // 
+            // tabPage1
+            // 
+            tabPage1.Controls.Add(guna2Button3);
+            tabPage1.Controls.Add(InstallBepinexButton);
+            tabPage1.Controls.Add(guna2Button1);
+            tabPage1.Location = new Point(4, 29);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(292, 282);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "Page 1";
+            tabPage1.UseVisualStyleBackColor = true;
+            tabPage1.Click += tabPage1_Click;
+            // 
+            // guna2Button3
+            // 
+            guna2Button3.BorderRadius = 10;
+            guna2Button3.BorderThickness = 3;
+            guna2Button3.CustomizableEdges = customizableEdges14;
+            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2Button3.ForeColor = Color.White;
+            guna2Button3.Location = new Point(30, 197);
+            guna2Button3.Name = "guna2Button3";
+            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges15;
+            guna2Button3.Size = new Size(225, 56);
+            guna2Button3.TabIndex = 3;
+            guna2Button3.Text = "Mod name";
+            guna2Button3.Click += guna2Button3_Click;
             // 
             // InstallBepinexButton
             // 
@@ -220,7 +285,7 @@
             InstallBepinexButton.FillColor = Color.DarkOrange;
             InstallBepinexButton.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             InstallBepinexButton.ForeColor = Color.White;
-            InstallBepinexButton.Location = new Point(63, 26);
+            InstallBepinexButton.Location = new Point(30, 22);
             InstallBepinexButton.Name = "InstallBepinexButton";
             InstallBepinexButton.ShadowDecoration.CustomizableEdges = customizableEdges17;
             InstallBepinexButton.Size = new Size(225, 56);
@@ -228,16 +293,105 @@
             InstallBepinexButton.Text = "Install Bepinex";
             InstallBepinexButton.Click += InstallBepinexButton_Click;
             // 
+            // guna2Button1
+            // 
+            guna2Button1.BorderRadius = 10;
+            guna2Button1.BorderThickness = 3;
+            guna2Button1.CustomizableEdges = customizableEdges18;
+            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2Button1.ForeColor = Color.White;
+            guna2Button1.Location = new Point(30, 106);
+            guna2Button1.Name = "guna2Button1";
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges19;
+            guna2Button1.Size = new Size(225, 56);
+            guna2Button1.TabIndex = 1;
+            guna2Button1.Text = "Custom Day/Night";
+            guna2Button1.Click += guna2Button1_Click_1;
+            // 
+            // tabPage2
+            // 
+            tabPage2.Controls.Add(guna2Button5);
+            tabPage2.Controls.Add(guna2Button4);
+            tabPage2.Controls.Add(guna2Button2);
+            tabPage2.Location = new Point(4, 29);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new Padding(3);
+            tabPage2.Size = new Size(292, 282);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "Page 2";
+            tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // guna2Button5
+            // 
+            guna2Button5.BorderRadius = 10;
+            guna2Button5.BorderThickness = 3;
+            guna2Button5.CustomizableEdges = customizableEdges20;
+            guna2Button5.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button5.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button5.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2Button5.ForeColor = Color.White;
+            guna2Button5.Location = new Point(35, 200);
+            guna2Button5.Name = "guna2Button5";
+            guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges21;
+            guna2Button5.Size = new Size(225, 56);
+            guna2Button5.TabIndex = 6;
+            guna2Button5.Text = "Mod name";
+            guna2Button5.Click += guna2Button5_Click;
+            // 
+            // guna2Button4
+            // 
+            guna2Button4.BorderRadius = 10;
+            guna2Button4.BorderThickness = 3;
+            guna2Button4.CustomizableEdges = customizableEdges22;
+            guna2Button4.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button4.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2Button4.ForeColor = Color.White;
+            guna2Button4.Location = new Point(34, 113);
+            guna2Button4.Name = "guna2Button4";
+            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges23;
+            guna2Button4.Size = new Size(225, 56);
+            guna2Button4.TabIndex = 5;
+            guna2Button4.Text = "Mod name";
+            guna2Button4.Click += guna2Button4_Click;
+            // 
+            // guna2Button2
+            // 
+            guna2Button2.BorderRadius = 10;
+            guna2Button2.BorderThickness = 3;
+            guna2Button2.CustomizableEdges = customizableEdges24;
+            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2Button2.ForeColor = Color.White;
+            guna2Button2.Location = new Point(35, 22);
+            guna2Button2.Name = "guna2Button2";
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges25;
+            guna2Button2.Size = new Size(225, 56);
+            guna2Button2.TabIndex = 4;
+            guna2Button2.Text = "Mod name";
+            guna2Button2.Click += guna2Button2_Click_1;
+            // 
             // guna2Panel3
             // 
             guna2Panel3.BackColor = SystemColors.ControlLight;
             guna2Panel3.Controls.Add(FindModsButton);
             guna2Panel3.Controls.Add(PluginsList);
             guna2Panel3.Controls.Add(guna2TextBox2);
-            guna2Panel3.CustomizableEdges = customizableEdges24;
+            guna2Panel3.CustomizableEdges = customizableEdges32;
             guna2Panel3.Location = new Point(419, 77);
             guna2Panel3.Name = "guna2Panel3";
-            guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges25;
+            guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges33;
             guna2Panel3.Size = new Size(356, 335);
             guna2Panel3.TabIndex = 3;
             // 
@@ -246,7 +400,7 @@
             FindModsButton.BorderColor = Color.DimGray;
             FindModsButton.BorderRadius = 10;
             FindModsButton.BorderThickness = 3;
-            FindModsButton.CustomizableEdges = customizableEdges20;
+            FindModsButton.CustomizableEdges = customizableEdges28;
             FindModsButton.DisabledState.BorderColor = Color.DarkGray;
             FindModsButton.DisabledState.CustomBorderColor = Color.DarkGray;
             FindModsButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -256,7 +410,7 @@
             FindModsButton.ForeColor = Color.White;
             FindModsButton.Location = new Point(226, 3);
             FindModsButton.Name = "FindModsButton";
-            FindModsButton.ShadowDecoration.CustomizableEdges = customizableEdges21;
+            FindModsButton.ShadowDecoration.CustomizableEdges = customizableEdges29;
             FindModsButton.Size = new Size(74, 45);
             FindModsButton.TabIndex = 1;
             FindModsButton.Text = "Find mods";
@@ -275,7 +429,7 @@
             // 
             // guna2TextBox2
             // 
-            guna2TextBox2.CustomizableEdges = customizableEdges22;
+            guna2TextBox2.CustomizableEdges = customizableEdges30;
             guna2TextBox2.DefaultText = "Mods Found in Plugins:";
             guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -290,29 +444,28 @@
             guna2TextBox2.PlaceholderText = "";
             guna2TextBox2.ReadOnly = true;
             guna2TextBox2.SelectedText = "";
-            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges23;
+            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges31;
             guna2TextBox2.Size = new Size(250, 45);
             guna2TextBox2.TabIndex = 0;
             guna2TextBox2.TextChanged += guna2TextBox2_TextChanged;
             // 
-            // guna2Button1
+            // tabPage3
             // 
-            guna2Button1.BorderRadius = 10;
-            guna2Button1.BorderThickness = 3;
-            guna2Button1.CustomizableEdges = customizableEdges14;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(63, 88);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges15;
-            guna2Button1.Size = new Size(225, 56);
-            guna2Button1.TabIndex = 1;
-            guna2Button1.Text = "Custom Day/Night";
-            guna2Button1.Click += guna2Button1_Click_1;
+            tabPage3.Location = new Point(4, 29);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Size = new Size(292, 282);
+            tabPage3.TabIndex = 2;
+            tabPage3.Text = "Page 3";
+            tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            tabPage4.Location = new Point(4, 29);
+            tabPage4.Name = "tabPage4";
+            tabPage4.Size = new Size(292, 282);
+            tabPage4.TabIndex = 3;
+            tabPage4.Text = "Page 4";
+            tabPage4.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -328,6 +481,9 @@
             Load += Form1_Load;
             guna2Panel1.ResumeLayout(false);
             guna2Panel2.ResumeLayout(false);
+            ModPages.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            tabPage2.ResumeLayout(false);
             guna2Panel3.ResumeLayout(false);
             ResumeLayout(false);
         }
@@ -348,5 +504,14 @@
         private Guna.UI2.WinForms.Guna2Button FindModsButton;
         private Guna.UI2.WinForms.Guna2Button InstallBepinexButton;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private TabControl ModPages;
+        private TabPage tabPage1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private TabPage tabPage2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private TabPage tabPage3;
+        private TabPage tabPage4;
     }
 }

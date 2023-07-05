@@ -16,6 +16,11 @@ namespace GreenHellVRModManager
         }
 
 
+        public bool IsBepInExInstalled()
+        {
+            string bepInExFolderPath = Path.Combine(Path.GetDirectoryName(gameExecutablePath), "BepInEx");
+            return Directory.Exists(bepInExFolderPath);
+        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -40,26 +45,35 @@ namespace GreenHellVRModManager
 
         public void InstallCustomDayNight()
         {
-            string downloadLink = "https://github.com/ShAdowDev16/BepinexGHVR/raw/main/CustomDayNight.dll\r\n"; // Replace with the URL of the .dll file you want to download
-            string destinationPath = Path.Combine(Path.GetDirectoryName(gameExecutablePath), "BepInEx\\plugins\\CustomDayNight.dll"); // Replace with the desired destination path to save the downloaded .dll file
-
-            try
+            if (IsBepInExInstalled())
             {
-                using (WebClient client = new WebClient())
+                string downloadLink = "https://github.com/ShAdowDev16/BepinexGHVR/raw/main/CustomDayNight.dll\r\n"; // Replace with the URL of the .dll file you want to download
+                string destinationPath = Path.Combine(Path.GetDirectoryName(gameExecutablePath), "BepInEx\\plugins\\CustomDayNight.dll"); // Replace with the desired destination path to save the downloaded .dll file
+
+                try
                 {
-                    ChangeStatus("Downloading file...");
+                    using (WebClient client = new WebClient())
+                    {
+                        ChangeStatus("Downloading file...");
 
-                    client.DownloadFile(downloadLink, destinationPath);
+                        client.DownloadFile(downloadLink, destinationPath);
 
-                    ChangeStatus("File downloaded successfully!");
-                    MessageBox.Show("Thanks for installing Custom day/night mod to configure it u open the .config file in bepinex/config", "Mod Help",MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        ChangeStatus("File downloaded successfully!");
+                        MessageBox.Show("Thanks for installing Custom day/night mod to configure it u open the .config file in bepinex/config", "Mod Help", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    ChangeStatus("Error downloading file: " + ex.Message);
+                    MessageBox.Show("Error occurred while downloading the file. Please check your internet connection or the file might already exist", "Green Hell Mod Manager", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            catch (Exception ex)
+            else
             {
-                ChangeStatus("Error downloading file: " + ex.Message);
-                MessageBox.Show("Error occurred while downloading the file. Please check your internet connection or the file might already exist", "Green Hell Mod Manager", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                ChangeStatus("BepInEx required");
+                MessageBox.Show("For this mod to work u need to install BepInex!", "Green Hell Mod Manager", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
         }
 
 
@@ -188,6 +202,48 @@ namespace GreenHellVRModManager
         private void guna2Button1_Click_1(object sender, EventArgs e)
         {
             InstallCustomDayNight();
+        }
+
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            if (IsBepInExInstalled())
+            {
+                //code here
+            }
+        }
+
+        private void guna2Button2_Click_1(object sender, EventArgs e)
+        {
+            if (IsBepInExInstalled())
+            {
+                //code here
+            }
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            if (IsBepInExInstalled())
+            {
+                //code here
+            }
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            if (IsBepInExInstalled())
+            {
+                //code here
+            }
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
