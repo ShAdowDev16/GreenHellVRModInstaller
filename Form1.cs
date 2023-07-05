@@ -86,7 +86,7 @@ namespace GreenHellVRModManager
 
         public void FindMods()
         {
-            string folderPath = @"C:\Program Files\Oculus\Software\Software\incuvo-s-a-green-hell-vr\BepInEx\plugins";
+           string folderPath = Path.Combine(Path.GetDirectoryName(gameExecutablePath), "BepInEx\\plugins"); ;
 
             // Get all the files in the specified folder
             string[] files = Directory.GetFiles(folderPath);
@@ -99,7 +99,6 @@ namespace GreenHellVRModManager
             {
                 PluginsList.Items.Add(Path.GetFileName(file));
             }
-
         }
 
 
